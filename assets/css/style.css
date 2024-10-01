@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animal{
+    width: 400px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+.animal_who p{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.animal_name_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.animal_img img{
+    width: 200px;
+    height: auto;
+}
+
+.animal_info p{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.animal_text p{
+    text-align: center;
+    font-size: 16px;
+    color: red;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+}
+
+section{
+    width: 1400px;
+    margin: 0 auto;
+}
